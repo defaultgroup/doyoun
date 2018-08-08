@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>팝업식 주관형</title>
+</head>
+<style>
+button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+</style>
+<body>
+  <script>
+  function ans(){
+    password = prompt("정답을 적어 주세요.");
+    if(password == 669) {
+      alert("정답입니다! 키워드는 '녕' 입니다.");
+    } else {
+      alert("틀렸습니다! 다시 생각해보세요...");
+    }
+}
+</script>
+<center><h2>문제를 읽고 답을 알아내셨다면 버튼을 눌러주세요.</h2></center>
+<br>
+<br>
+<p>이 사이트는 <strong>html로</strong> 작성되었습니다.</p>
+<br>
+<p>위 문장의 'html로'와 같이 특정 단어나 글자를 강조할 때 사용하는 태그의 이름을</p>
+<br>
+<p>십진법 데이터 형식으로 바꾼 값을 각각 더한 수는?</p>
+<br>
+<center><button onclick="ans()">정답 제출</button></center>
+<br>
+<button type="button" onclick="location.href='http://mwultong.blogspot.com/2007/01/html-css-text-align-tag.html'">이전 문제로</button>
+<button type="button" onclick="location.href='http://mwultong.blogspot.com/2007/01/html-css-text-align-tag.html'">다음 문제로</button>
+<button type="button" onclick="location.href='http://mwultong.blogspot.com/2007/01/html-css-text-align-tag.html'">최종 정답으로</button>
+</body>
+</html>
